@@ -1,14 +1,14 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import './header.scss';
+import s from'./Header.module.scss';
 
 const Header = () => {
     return (
-        <div className="header">
-            <div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Zeronet_logo.png" />
-            </div>
-        </div>
+        <header className={s.header}>
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Zeronet_logo.png" />
+            
+        </header>
     )
 }
 

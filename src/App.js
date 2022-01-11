@@ -1,14 +1,14 @@
 import React from 'react';
-import './scss/app.scss';
+import s from './scss/App.module.scss';
 import Profil from './components/Profil/Profil';
 import Header from './components/Header/Header'
 import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   return (
-    <div className="app">
+    <div className={s.app}>
       <Header />
-      <div className='content'>
+      <div className={s.content}>
         <Sidebar/>
         <Profil/>
       </div>

@@ -1,29 +1,36 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import './sidebar.scss';
+import s from './Sidebar.module.scss';
 
 const Sidebar = () => {
     return (
-        <div className="sidebar">
-            <div>
-                <ul>
-                    <li>
-                        Profile
-                    </li>
-                    <li>
-                        Message
-                    </li>
-                    <li>
-                        News
-                    </li>
-                    <li>
-                        Music
-                    </li>
-                    <li>
-                        Sertings
-                    </li>
-                </ul>
+        <nav className={s.nav}>
+            <div className={`${s.item} ${s.active}`}>
+                <a>
+                    Profil
+                </a>
             </div>
-        </div>
+            <div className={s.item}>
+                <a>
+                    Message
+                </a>
+            </div>
+            <div className={s.item}>
+                <a>
+                    News
+                </a>
+            </div>
+            <div className={s.item}>
+                <a>
+                    Music
+                </a>
+            </div>
+            <div className={s.item}>
+                <a>
+                    Sertings
+                </a>
+            </div>
+        </nav>
     )
 }
 
