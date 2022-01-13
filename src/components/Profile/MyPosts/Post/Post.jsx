@@ -2,14 +2,15 @@
 import React from "react";
 import s from './Post.module.scss';
 
-const Post = () => {
+const Post = (props) => {
+
     return (
         <div>
             <div className={`${s.item} ${s.active}`}>
                 <img src="https://cdn-icons-png.flaticon.com/512/194/194938.png"/>
-                Post2
+                {props.message}
                 <div>
-                    <span>Like</span>
+                    <span>{props.likeCount}</span>
                 </div>
             </div>
         </div>

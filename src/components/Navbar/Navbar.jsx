@@ -1,37 +1,38 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/jsx-no-undef */
 import React from "react";
-import s from './Sidebar.module.scss';
+import s from './Navbar.module.scss';
+import { Link } from "react-router-dom";
 
-const Sidebar = () => {
+const Navbar = (props) => {
     return (
         <nav className={s.nav}>
             <div className={`${s.item} ${s.active}`}>
-                <a>
+                <Link to="/profile">
                     Profil
-                </a>
+                </Link>
             </div>
             <div className={s.item}>
-                <a>
+                <Link  to="/dialogs">
                     Message
-                </a>
+                </Link>
             </div>
             <div className={s.item}>
-                <a>
+                <Link to="/news">
                     News
-                </a>
+                </Link>
             </div>
             <div className={s.item}>
-                <a>
+                <Link to="/music">
                     Music
-                </a>
+                </Link>
             </div>
             <div className={s.item}>
-                <a>
+                <Link to="/sertings">
                     Sertings
-                </a>
+                </Link>
             </div>
         </nav>
     )
 }
 
-export default Sidebar;
+export default Navbar;
