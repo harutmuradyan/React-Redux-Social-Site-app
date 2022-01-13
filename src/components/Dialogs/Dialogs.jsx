@@ -5,8 +5,13 @@ import s from './Dialogs.module.scss';/*import Profil from './components/Profil/
 
 const Dialogs = (props) => {
   return (
-    <div className={s.dialogs}>
-      <h1>Dialogs</h1>
+    <div className={s.dialogs_page}>
+      <div className={s.dialogs_bar}>
+        <h1>Message</h1>
+      </div>
+      <div className={s.dialogs_content}>
+
+      </div>
     </div>
   );
 }

@@ -5,9 +5,7 @@ import s from'./Header.module.scss';
 const Header = () => {
     return (
         <header className={s.header}>
-            
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Zeronet_logo.png" />
-            
+            <h1>Header</h1>
         </header>
     )
 }

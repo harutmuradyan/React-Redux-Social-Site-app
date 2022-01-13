@@ -1,11 +1,11 @@
 
 .app {
     display: grid;
-    background-color:grey;
+    background-color:white;
 
-    .app_content {
+    .app_content{
         display: grid;
-        grid-template-columns: 25% 1fr;
+        grid-template-columns: 222px 1fr;
         
     }
 }

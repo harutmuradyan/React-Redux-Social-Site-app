@@ -1,0 +1,14 @@
+.social_site {
+    width: 15%;
+    bottom:0px;
+    height:70px ;
+    background-color:hsl(60, 20%, 35%);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    img {
+        padding: 15px 10px 15px 10px;
+        width: 35px;
+        height: 35px;
+    }
+}

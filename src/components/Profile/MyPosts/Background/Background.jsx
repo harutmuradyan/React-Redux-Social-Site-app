@@ -4,8 +4,8 @@ import s from './Background.module.scss';
 
 const Background = (props) => {
     return (
-        <div className={s.Background}>
-            <img src="https://mangrumnewmedia.files.wordpress.com/2016/09/socialmedia.jpg"/>
+        <div className={s.background}>
+            <img src="https://wallpaperaccess.com/full/2923163.jpg"/>
         </div>
     );
   }
