@@ -1,0 +1,24 @@
+.dialogs_page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .dialogs_items {
+        margin:10px 0px 10px 0px;
+        display: flex;
+        justify-content: center;
+        div {
+            width: 80%;
+        }
+    }
+    .dialogs_messages {
+        border-radius:25px;
+        margin:20px 0px 10px 0px;
+        display: flex;
+        justify-content: center;
+        div {
+            width: 80%;
+            background-color:#c3c388;
+            border-radius:25px;
+        }
+    }
+}

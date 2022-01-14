@@ -4,17 +4,25 @@ import s from '../MyPosts/MyPosts.module.scss';
 import Post from './Post/Post'
 
 const MyPosts = () => {
+
+    let postData = [
+        {id : 1 , message : "Hi, how are you" , likesCount : 15},
+        {id : 2 , message : "Its my first posts" , likesCount : 20}
+    ]
+
+    let postElement = postData.map( p => {
+        return <Post message={p.message} likeCount={p.likesCount} />
+    });
+
     return (
-        <div>
-            My Posts
-            <div>
+        <div className={s.myPosts}>
+           <div className={s.myPosts_sertings}>
                 <textarea></textarea>
-                <button>Add Post</button>
-                <button>Remove</button>
+                <button >Add Post</button>
+                <button >Remove</button>
             </div>
             <div className={s.posts}>
-                <Post message="Hi, how are you" likeCount="15" />
-                <Post message="Its my first posts" likeCount="20" />
+                {postElement}
             </div>
         </div>
     )

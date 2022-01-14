@@ -1,0 +1,19 @@
+.dialogs_item {
+    width: 80%;
+    border:gold solid 3px;
+    background-color:#c3c388;
+    padding: 15px 10px 15px 10px;
+    margin:10px 0px 10px 0px;
+    border-radius: 15px;
+    a {
+        display: block;
+        text-align: center  ;
+        color: white;
+    } 
+    
+}  
+.dialogs_item.active {
+    a {
+        color: black;
+    }
+}

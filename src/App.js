@@ -20,8 +20,8 @@ const App = (props) => {
           <Navbar/>
           <div className={s.app_blocks}>
             <Routes>
-              <Route path="/profile" element={<Profile />} />
-              <Route path="/dialogs" element={<Dialogs />} />
+              <Route  path="/profile" element={<Profile />} />
+              <Route  path="/dialogs" element={<Dialogs />} />
               <Route path="/news" element={<News />} />
               <Route path="/music" element={<Music />} />
               <Route path="/sertings" element={<Sertings />} />

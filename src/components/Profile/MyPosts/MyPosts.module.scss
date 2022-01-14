@@ -1,0 +1,13 @@
+.myPosts {
+    width: 80%;
+    margin: 0 auto;
+    .myPosts_sertings {
+        display: grid;
+        grid-template-columns: 8fr 1fr 1fr;
+
+        button {
+            margin: 0px 5px 0px 5px;
+            height: 40px;
+        }
+    }
+}
