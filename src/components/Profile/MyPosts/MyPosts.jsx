@@ -12,11 +12,6 @@ const MyPosts = (props) => {
 
     return (
         <div className={s.myPosts}>
-           <div className={s.myPosts_sertings}>
-                <textarea></textarea>
-                <button >Add Post</button>
-                <button >Remove</button>
-            </div>
             <div className={s.posts}>
                 {postElement}
             </div>

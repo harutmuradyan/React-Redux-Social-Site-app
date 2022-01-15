@@ -3,7 +3,7 @@ import React from 'react';
 import s from './Dialogs.module.scss';
 import DialogsItem from './DialogsItem/DialogsItem';
 import DialogsMessage from './DialogsMessage/DialogsMessage';
-
+import NewMessage from './newMessage/NewMessage';
 
 const Dialogs = (props) => {
 
@@ -28,6 +28,7 @@ const Dialogs = (props) => {
         <div className={s.dialogs_messages}>
           <div>
             {dialogsMessages}
+            <NewMessage/>
           </div>
         </div>
       </div>
