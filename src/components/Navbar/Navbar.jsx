@@ -3,8 +3,8 @@
 import React from "react";
 import s from './Navbar.module.scss';
 import { Link } from "react-router-dom";
-import Logo from "../Logo/Logo";
-import SocialSite from "../SocialSite/SocialSite";
+import Logo from "./Logo/Logo";
+import SocialSite from "./SocialSite/SocialSite";
 
 const Navbar = (props) => {
     return (

@@ -3,10 +3,9 @@
 import React from "react";
 import s from './Profile.module.scss';
 import MyPosts from './MyPosts/MyPosts';
-import Background from "./MyPosts/Background/Background";
-import Avatar from "./MyPosts/Avatar/Avatar";
-import Description from './MyPosts/Description/Description'
-import NewPost from "./MyPosts/NewPost/NewPost";
+import Background from "./Background/Background";
+import Description from './Description/Description'
+import NewPost from "./NewPost/NewPost";
 
 const Profile = (props) => {
 
@@ -14,7 +13,6 @@ const Profile = (props) => {
         <div className={s.profil}>
             <Background />
             <div>
-                <Avatar/>
                 <Description/>
             </div>
 

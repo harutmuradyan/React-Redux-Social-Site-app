@@ -1,13 +1,26 @@
 .dialogs_item {
+    height: 50px;
     width: 80%;
     border:gold solid 3px;
     background-color:#c3c388;
     padding: 15px 10px 15px 10px;
     margin:10px 0px 10px 0px;
     border-radius: 15px;
+    display: flex;
+   
+    img {
+        margin-left: 10px;
+        margin-top:5px ;
+        width: 40px;
+        height: 40px;
+    }
+    
+
     a {
+        text-decoration: none;
+        margin-left: 20px;
+        margin-top: 10px;
         display: block;
-        text-align: center  ;
         color: white;
     } 
     
