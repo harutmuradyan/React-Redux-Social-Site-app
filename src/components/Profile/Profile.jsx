@@ -8,7 +8,8 @@ import Avatar from "./MyPosts/Avatar/Avatar";
 import Description from './MyPosts/Description/Description'
 import NewPost from "./MyPosts/NewPost/NewPost";
 
-const Profile = () => {
+const Profile = (props) => {
+
     return (
         <div className={s.profil}>
             <Background />
@@ -20,7 +21,7 @@ const Profile = () => {
             <div>
                 <NewPost/>
             </div>
-            <MyPosts />
+            <MyPosts posts={props.state.posts}/>
         </div>
     )
 }
